@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: rgb(44, 139, 44);
+}
+
+.content {
+  height: 95vh;
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game {
+  align-items: center;
+  justify-content: center;
+}
+
+.botoes button {
+  width: 80px;
+  height: 30px;
+  background-color: rgba(44, 139, 44, 0.5);
+}
